@@ -13,7 +13,8 @@ const Stage2 = () => {
       </div>
 
       <div
-        className="action_button"  
+        className="action_button"
+        onClick={() => context.resetGame()}
       >
         Start Over!
       </div>
